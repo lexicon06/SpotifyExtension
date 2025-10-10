@@ -105,14 +105,14 @@ SpotifyExtension/
 - **Dependencies:** 
   - Newtonsoft.Json 13.0.3
   - System.Net.Http 4.3.4
-- **Extension Interface:** `IExtension` from `iconnect` [4](#0-3) 
+- **Extension Interface:** `IExtension` from `iconnect`
 
 ## Data Storage
 
 The extension stores data in two locations:
 
-1. **User Tokens:** `%AppData%\sb0t\{ServerName}\Extensions\SpotifyExtension\spotify_tokens.json` <cite />
-2. **State Mappings:** `C:\web\spotify_state_mapping.json` (for OAuth flow) <cite />
+1. **User Tokens:** `%AppData%\sb0t\{ServerName}\Extensions\SpotifyExtension\spotify_tokens.json`
+2. **State Mappings:** `C:\web\spotify_state_mapping.json` (for OAuth flow)
 
 ## OAuth Flow
 
@@ -129,8 +129,8 @@ The extension implements a secure OAuth 2.0 flow: <cite />
 
 The extension uses the following Spotify API endpoints:
 
-- **Token Exchange:** `https://accounts.spotify.com/api/token` <cite />
-- **Currently Playing:** `https://api.spotify.com/v1/me/player/currently-playing` <cite />
+- **Token Exchange:** `https://accounts.spotify.com/api/token`
+- **Currently Playing:** `https://api.spotify.com/v1/me/player/currently-playing`
 
 Required OAuth scopes:
 - `user-read-currently-playing`
