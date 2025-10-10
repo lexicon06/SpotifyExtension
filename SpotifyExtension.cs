@@ -485,7 +485,7 @@ namespace SpotifyExtension
 
         #endregion 
 
-        public BitmapSource Icon => new BitmapImage(new Uri("pack://application:,,,/extension;component/spotify-icon.png"));
+        public BitmapSource Icon => new BitmapImage(new Uri("pack://application:,,,/extension;component/icon.png"));
         public UserControl GUI => null;
 
         public void Dispose()
