@@ -2,7 +2,9 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Framework](https://img.shields.io/badge/.NET%20Framework-4.7.2-purple)
-![Platform](https://img.shields.io/badge/sb0t-v5-green)
+![Platform](https://img.shields.io/badge/Platform-x86-lightgrey)
+![Dependencies](https://img.shields.io/badge/Dependencies-Newtonsoft.Json%2013.0.3%20%7C%20System.Net.Http%204.3.4-yellow)
+![Interface](https://img.shields.io/badge/Extension%20Interface-IExtension%20(iconnect)-orange)
 
 An sb0t extension that integrates Spotify OAuth to display users' currently playing tracks in the chatroom. Users can connect their Spotify accounts and automatically broadcast what they're listening to.
 
